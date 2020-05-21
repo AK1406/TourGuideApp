@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/listItemRelativeLayoutStyle">
+
+    <ImageView
+        android:id="@+id/food_image"
+        android:layout_width="@dimen/dimens"
+        android:layout_height="@dimen/dimens" />
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        style="@style/relativeStyle"
+        android:layout_toRightOf="@id/food_image">
+
+        <TextView
+            android:id="@+id/food_name"
+            style="@style/textStyle"
+            android:textColor="@color/white"
+            tools:text="artist" />
+
+        <TextView
+            android:id="@+id/about_food"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            tools:text="" />
+    </RelativeLayout>
+</RelativeLayout>

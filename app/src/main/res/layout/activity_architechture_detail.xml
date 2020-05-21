@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4C77B"
+    tools:context=".ArchitectureDetailActivity">
+
+    <LinearLayout style="@style/detailActivityLinearLayoutStyle">
+
+        <ImageView
+            android:id="@+id/ArchitectureImage"
+            style="@style/detailImageStyle" />
+
+        <TextView
+            android:id="@+id/ArchitectureName"
+            style="@style/detailNameStyle"
+            android:text="@string/architecture_name" />
+
+
+        <TextView
+            android:id="@+id/ArchitectureLocation"
+            style="@style/detailLocationStyle"
+            android:text="@string/Architecture_location" />
+
+        <TextView
+            android:id="@+id/aboutArchitecture"
+            style="@style/detailAboutStyle"
+            android:text="@string/about_Architecture" />
+    </LinearLayout>
+</ScrollView>

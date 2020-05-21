@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/listItemRelativeLayoutStyle">
+
+    <ImageView
+        android:id="@+id/temple_image"
+        android:layout_width="@dimen/dimens"
+        android:layout_height="@dimen/dimens" />
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        style="@style/relativeStyle"
+        android:layout_toRightOf="@id/temple_image">
+
+        <TextView
+            android:id="@+id/temple_name"
+            style="@style/textStyle"
+            android:textColor="@color/white"
+            tools:text="temple" />
+
+        <TextView
+            android:id="@+id/temple_location"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            tools:text="" />
+
+        <TextView
+            android:id="@+id/about_temple"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            tools:text="" />
+
+    </RelativeLayout>
+</RelativeLayout>

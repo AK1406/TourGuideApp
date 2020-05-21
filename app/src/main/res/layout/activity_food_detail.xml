@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4C77B"
+    tools:context=".FoodDetailActivity">
+
+    <LinearLayout style="@style/detailActivityLinearLayoutStyle">
+
+        <ImageView
+            android:id="@+id/foodImage"
+            style="@style/detailImageStyle"
+            android:layout_width="381dp"
+            android:layout_height="346dp" />
+
+        <TextView
+            android:id="@+id/foodName"
+            style="@style/detailNameStyle"
+            android:text="@string/food_name" />
+
+        <TextView
+            android:id="@+id/aboutFood"
+            style="@style/detailAboutStyle"
+            android:text="@string/about_food" />
+    </LinearLayout>
+</ScrollView>

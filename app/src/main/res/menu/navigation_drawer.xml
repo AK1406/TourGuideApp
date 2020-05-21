@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_city"
+        android:title="About City"
+        android:visible="true" />
+    <item
+        android:id="@+id/nav_temple"
+        android:title="Temples"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/nav_Architecture"
+        android:title="Architecture"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/nav_food"
+        android:title="Food"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/nav_restaurant"
+        android:title="Restaurant"
+        android:visible="true" />
+</menu>
